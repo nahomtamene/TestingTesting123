@@ -19,7 +19,7 @@ class UniqueCollectionTest {
         collection.addItem(Item("item1"))
         collection.addItem(Item("item2"))
 
-        assert(collection.size() == 2)
+        assert(collection.size() == 2){"Item not added"}
 
     }
 
@@ -30,7 +30,7 @@ class UniqueCollectionTest {
         collection.addItem(Item("item1"))
         collection.addItem(Item("item1"))
 
-        assert(collection.size() == 1)
+        assert(collection.size() == 1){"No unique items"}
 
     }
 
